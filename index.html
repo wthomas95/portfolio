@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>William Thomas</title>
+    <link rel="icon" href="https://i.imgur.com/HxVvMcY.png">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Oswald" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans">
+    <link rel="stylesheet"  type ="text/css" href="portfolio.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+<body>
+    <!-- <div class="sidenav" id"top">
+        <a><img class="profile" src="https://pbs.twimg.com/profile_images/1039513425519337472/lRpqJsZE_400x400.jpg" alt="William" href></a>
+        <br>
+        <br>
+        <a href="#top">// Home</a>
+        <a href="#about">// About</a>
+        <a href="#work">// Work</a>
+        <a href="#contact">// Contact</a>
+        <a download="./Resume.pdf" >// Resume</a>
+    </div> -->
+    <div id="content">
+        <div class="headerFlex">
+            <div id="header">
+                <img class="logo" id="logo" src="https://i.imgur.com/HxVvMcY.png" alt="logo">
+                <h1 class="namespace">Will Thomas</h1>
+                <h2 class="desc">Web Developer</h2>
+            </div>
+
+            <!-- <canvas id="canvas"></canvas> -->
+            <script src="./portfolio.js"></script>
+            <div class="next">
+                <div class="click"><a href="#about">
+                    <h1 class="enter">ENTER</h1><i class="fas fa-angle-right fa-3x"></i>
+                </a></div>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <!-- <img class="casualcode" src="https://i.imgur.com/6WROPh6.jpg" alt="casual"> -->
+        <br>
+        <h1>Welcome</h1>
+        <img class="aboutLogo" id="aboutLogo" src="https://i.imgur.com/HxVvMcY.png" alt="logo">
+        <h2>My name is William. I design and develop web pages and applications.</h2>
+        <br>
+        <div class="container">
+            <div class="item">
+                <i class="fas fa-address-card fa-3x"></i>
+                <br>
+                <h1 class="aboutTitle">Personal Information</h1>
+                23 year old aspiring web developer from Augusta, Georgia. 
+                <h2>Interests</h2>
+                Reading<br>
+                Television and Film<br>
+                Programming<br>
+                Video Games<br>
+                Puzzles<br>
+            </div>
+            <div class="item">
+                <i class="fas fa-book fa-3x"></i>
+                <br>
+                <h1 class="aboutTitle">Education</h1>
+                    <h2>University</h2>
+                    5 Semesters of Computer Science Education at Augusta University
+                    <h2>Web Development</h2>
+                    Went through Code Boot Camp at The Clubhouse, in Augusta Georgia. A program sponsored by Augusta Technical College
+            </div>
+            <div class="item">
+                <i class="fas fa-code fa-3x"></i>
+                <br>
+                <h1 class="aboutTitle">Skills</h1>
+                <h2>Languages</h2>
+                HTML<br>
+                CSS<br>
+                JavaScript<br>
+                C#<br>
+                PHP<br>
+                MySQL(PDO)<br>
+                <h2>Software</h2>
+                Visual Studio Code<br>
+                InkScape<br>
+                Sass: CSS Preprocessor<br>
+                Git<br>
+                CodePen<br><br>
+            </div>
+        </div>
+    </div>
+    <div class="work" id="work">
+        <div class="projectDesc">
+            <h1>HERE application:</h1>
+            <ul>
+                <li style="list-style-type: none;">This application is essentially a virtual sign-in sheet, similar to a guest book at a wedding</li>
+            </ul>
+            <div class="imgBox">
+                <img class="here" src=" https://i.imgur.com/m5Yeoef.png" alt="app">
+                <img class="here1" src="https://i.imgur.com/H5ZxX8c.png" alt="app1">
+            </div>
+
+            <button class="hereInfo" onclick="dropdown1()">More about the HERE app&nbsp;&nbsp;</button>
+            
+            <div id="hereInfoContent" class="hereInfoContent">
+                <p>This application applies a combination of HTML:5, PHP and CSS code. It uses a MySQL database, and allows users to store names and other data about guests who attend events, as well as allowing quick sign in for users who have been in attendance at a company event previously. Additionally, the databases can be cross referenced with each other to see what events a specific guest has attended, or the overall attendance numbers of specific events </p>
+            </div>
+        </div>
+        <div class="projectDesc">
+            <h1>Text-based JavaScript Game</h1>
+            <ul>
+                <li style="list-style-type: none;">One of my earlier projects during Code Boot Camp. This is a basic text-based JavaScript game, available on CodePen.</li>
+            </ul>
+                <p data-height="680" data-theme-id="0" data-slug-hash="PxMOgr" data-default-tab="result" data-user="wthomas95" data-pen-title="Javascript Story Game" class="codepen">See the Pen <a href="https://codepen.io/wthomas95/pen/PxMOgr/">Javascript Story Game</a> by William Thomas (<a href="https://codepen.io/wthomas95">@wthomas95</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+                <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        
+                <button class="JSInfo" onclick="dropdown2()">More about this JavaScript game&nbsp;&nbsp;</button>
+                
+                <div id="JSInfoContent" class="JSInfoContent">
+                    <p>This text based game uses very basic HTML and CSS code, so it doesn't look to fancy on top, but there is some interesting work going on in the background with the JavaScript. </p>
+                </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="contact" id="contact">
+        <div class="topContact">
+            <h1 style="text-align: center">Contact</h1>
+        </div>
+        <div class="contactbox">
+            <a href="mailto:w.thomas9596@gmail.com"><i class="far fa-envelope fa-5x"></i></a>
+            <a href="https://twitter.com/wthomas95"><i class="fab fa-twitter-square fa-5x"></i></a>
+            <a href="https://www.linkedin.com/in/william-thomas-b96797170/"><i class="fab fa-linkedin fa-5x"></i></a>
+        </div>
+    </div>
+</body>
+</html>
